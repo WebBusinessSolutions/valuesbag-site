@@ -9045,7 +9045,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 4em 0;
   position: relative; }
 
 .ftco-no-pt {
@@ -9444,6 +9444,34 @@ textarea.form-control {
   .ftco-intro .btn {
     width: 100%; }
   .ftco-intro h2 {
+    line-height: 1.2; }
+
+.ftco-intro-2 {
+  position: relative;
+  padding: 3em 0;
+  z-index: 0; }
+  .ftco-intro-2:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: '';
+    z-index: -1;
+    opacity: .8;
+    background: #189fe2;
+    background: #00a7fa;
+    background: -moz-linear-gradient(left, #0c9ae0 0%, #0084ff 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #48addf), color-stop(100%, #17a5ec));
+    background: -webkit-linear-gradient(left, #2fbaff 0%, #00aaff 100%);
+    background: -o-linear-gradient(left, #00aaff 0%, #49c2ff 100%);
+    background: -ms-linear-gradient(left, #00aaff 0%, #58c7ff 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#36bcff), to(#0aadff));
+    background: linear-gradient(to right, #369ef3 0%, #00559b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1566ad', endColorstr='#1b9de3', GradientType=1 ); }
+  .ftco-intro-2 .btn {
+    width: 100%; }
+  .ftco-intro-2 h2 {
     line-height: 1.2; }
 
 #section-counter {
